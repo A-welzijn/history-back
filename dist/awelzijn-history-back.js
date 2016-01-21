@@ -29,11 +29,10 @@
             template:
 
         '<div class="back-btn">' +
-        '<p ng-click="terug()">' +
-        '<i class="fa fa-angle-left"></i>' +
-        '</p>' +
+        '<span ng-click="terug()">' +
+        '<i class="fa fa-angle-left"><span class="sr-only">Terug</span></i>' +
+        '</span>' +
         '</div>',
         };
     }]);
-})();
-;;
+})();;

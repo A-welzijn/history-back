@@ -1,14 +1,15 @@
 {
   "name": "awelzijn-history-back",
   "description": "History back button",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "repository": {
     "type": "git",
     "url": "git@github.com:A-welzijn/history-back.git"
   },
   "dependencies": {
     "bower": "^1.3.12",
-    "grunt-cli": "^0.1.13"
+    "grunt-cli": "^0.1.13",
+    "grunt-sass": "^1.1.0"
   },
   "devDependencies": {
     "grunt": "^0.4.1",
